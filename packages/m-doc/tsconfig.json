@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "lib": ["esnext", "dom","DOM.Iterable"],
+    "types": ["vite/client", "node"],
+    "esModuleInterop": true,
+    "paths": {
+      "@m-ui/*": ["../m-ui/*"],
+    },
+    "declaration": true,
+  },
+  "include": ["./**/*.ts", "./**/*.d.ts", "./**/*.tsx", "./**/*.vue"]
+}

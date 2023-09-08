@@ -1,0 +1,45 @@
+@import './base.scss';
+
+$mui-form-control-line-active: var(--mui-form-control-line-active, $mui-blue-50); // 表单控件边框激活色，用于获得焦点
+
+$mui-contrast: var(--mui-contrast, #c7000b); // 品牌色撞色、对比色、反衬色、第二品牌色
+
+// 字体颜色
+$mui-text: var(--mui-mui, $mui-slate-100); // 正文文本
+
+
+$mui-light-text: var(--mui-light-text, $mui-white-5); // 有色深色背景下字体颜色（固定）
+$mui-dark-text: var(--mui-dark-text, $mui-slate-100); // 有色浅色背景下字体颜色（固定）
+
+// 按钮主色
+$mui-primary: var(--mui-primary, $mui-blue-50); // 主要按钮，同品牌色
+$mui-primary-hover: var(--mui-primary-hover, $mui-blue-40); // 主要按钮悬停
+$mui-primary-active: var(--mui-primary-active, $mui-blue-90); // 主要按钮激活
+
+// 禁用
+$mui-disabled-bg: var(--mui-disabled-bg, $mui-gray-5); // disabled背景颜色
+$mui-disabled-line: var(--mui-disabled-line, $mui-slate-20); // disabled边框颜色
+$mui-disabled-text: var(--mui-disabled-text, $mui-slate-40); // disabled文字颜色
+$mui-primary-disabled: var(--mui-primary-disabled, $mui-blue-20); //主要按钮disabled状态文字颜色
+$mui-icon-fill-active-disabled: var(--mui-icon-fill-active-disabled, $mui-blue-20); // svg图标激活状态禁用色
+
+$mui-contrast-hover: var(--mui-contrast-hover, #d64a52); // 突出按钮悬停
+$mui-contrast-active: var(--mui-contrast-active, #b12220); // 突出按钮激活
+$mui-contrast-disabled: var(--mui-contrast-disabled, #ffbcba); // 突出按钮禁用
+
+$mui-block: var(--mui-block, $mui-white-5); // 大面积的不可折叠区块的背景色（例如顶部导航背景色）
+
+// link
+$mui-link: var(--mui-link, $mui-blue-60); // 链接文本颜色
+$mui-link-active: var(--mui-link-active, $mui-blue-60); // 链接文本悬停/激活颜色
+
+
+$mui-form-control-line-active-hover: var(
+  --mui-form-control-line-active-hover,
+  $mui-blue-90
+); // 表单控件边框激活色，用于获得焦点且悬停
+$mui-list-item-active-hover-bg: var(--mui-list-item-active-hover-bg, $mui-blue-5); // 列表类型单选选中背景悬停反馈色（仅用于分页等）
+$mui-list-item-hover-bg: var(--mui-list-item-hover-bg, $mui-zinc-10); // 列表类型普通选项悬停背景
+$mui-list-item-hover-text: var(--mui-list-item-hover-text, $mui-slate-100); // 列表类型普通选项悬停背景搭配文本
+$mui-list-item-selected-bg: var(--mui-list-item-selected-bg, $mui-blue-5); // 列表类型多选被选中的行色，仅用于表格类
+$mui-list-item-strip-bg: var(--mui-list-item-strip-bg, $mui-blue-5); // 列表类型斑马纹色，仅用于表格类

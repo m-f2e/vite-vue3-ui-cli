@@ -1,0 +1,25 @@
+{
+  "name": "@m-f2e",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "i": "pnpm install",
+    "cli:dev": "pnpm --filter @m-f2e/m-cli dev",
+    "cli:build": "pnpm --filter @m-f2e/m-cli build",
+    "cli": "pnpm --filter @m-f2e/m-cli cli",
+    "docs:dev": "pnpm --filter @m-f2e/m-doc dev",
+    "ui:new": "pnpm --filter @m-f2e/m-ui new",
+    "ui:build": "pnpm --filter @m-f2e/m-ui build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9"
+  },
+  "packageManager": "pnpm@8.6.3"
+}

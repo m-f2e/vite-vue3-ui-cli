@@ -1,0 +1,19 @@
+@import './private/color.scss';
+@import './private/font.scss';
+
+$mui-base-bg: var(--mui-base-bg, #fff); // 基础区块背景白色
+$mui-base-bg-dark: var(--mui-base-bg-dark, $mui-slate-100); // 基础区块背景深色(固定)
+
+$mui-brand-active: var(--mui-brand-active, $mui-blue-60); // 品牌色激活色（加深）
+$mui-brand-active-focus: var(--mui-brand-active-focus, $mui-blue-90); // 品牌色焦点色（重度加深）
+
+$mui-line: var(--mui-line, $mui-slate-30); // 边框分割线，仅用于边框
+$mui-dividing-line: var(--mui-dividing-line, $mui-zinc-10); // 内容分割线，用于内容之间的分割
+
+// 圆角
+$mui-border-radius: var(--mui-border-radius, 2px); //一般圆角
+$mui-border-radius-feedback: var(--mui-border-radius-feedback, 4px); //反馈类圆角
+$mui-border-radius-card: var(--mui-border-radius-card, 8px); //卡片,弹窗圆角
+$mui-border-radius-full: var(--mui-border-radius-full, 100px); //暂不对外开放，用于开关，进度条等组件的圆角自适应宽高
+
+$mui-prefix: mui;
